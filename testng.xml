@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Naveen practice" verbose="1">
+  <test name="test1">
+  <!-- <groups>
+  <run>
+  <include name="other"/>
+  </run>
+  </groups> -->
+   <classes>
+       <class name="TestPackage.TestNgAnnotation"/>
+        <class name="TestPackage_part2.TestNgDemo"/>
+    </classes>
+  </test>
+  </suite>

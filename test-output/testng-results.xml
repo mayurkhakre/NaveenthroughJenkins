@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="5" total="12" passed="7">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Naveen practice" duration-ms="219" started-at="2021-12-29T10:28:16Z" finished-at="2021-12-29T10:28:16Z">
+    <groups>
+      <group name="parent">
+        <method signature="TestNgDemo.khakre(java.lang.String, java.lang.String)[pri:3, instance:TestPackage_part2.TestNgDemo@26653222]" name="khakre" class="TestPackage_part2.TestNgDemo"/>
+        <method signature="TestNgDemo.vinayak()[pri:2, instance:TestPackage_part2.TestNgDemo@26653222]" name="vinayak" class="TestPackage_part2.TestNgDemo"/>
+      </group> <!-- parent -->
+      <group name="other">
+        <method signature="TestNgAnnotation.test()[pri:1, instance:TestPackage.TestNgAnnotation@5e5792a0]" name="test" class="TestPackage.TestNgAnnotation"/>
+        <method signature="TestNgAnnotation.test2()[pri:2, instance:TestPackage.TestNgAnnotation@5e5792a0]" name="test2" class="TestPackage.TestNgAnnotation"/>
+        <method signature="TestNgAnnotation.test3()[pri:3, instance:TestPackage.TestNgAnnotation@5e5792a0]" name="test3" class="TestPackage.TestNgAnnotation"/>
+      </group> <!-- other -->
+      <group name="child">
+        <method signature="TestNgDemo.mayur()[pri:1, instance:TestPackage_part2.TestNgDemo@26653222]" name="mayur" class="TestPackage_part2.TestNgDemo"/>
+      </group> <!-- child -->
+    </groups>
+    <test name="test1" duration-ms="219" started-at="2021-12-29T10:28:16Z" finished-at="2021-12-29T10:28:16Z">
+      <class name="TestPackage_part2.TestNgDemo">
+        <test-method status="PASS" signature="mayur()[pri:1, instance:TestPackage_part2.TestNgDemo@26653222]" name="mayur" duration-ms="3" started-at="2021-12-29T10:28:16Z" finished-at="2021-12-29T10:28:16Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- mayur -->
+        <test-method status="PASS" signature="vinayak()[pri:2, instance:TestPackage_part2.TestNgDemo@26653222]" name="vinayak" duration-ms="6" started-at="2021-12-29T10:28:16Z" finished-at="2021-12-29T10:28:16Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- vinayak -->
+        <test-method status="PASS" signature="khakre(java.lang.String, java.lang.String)[pri:3, instance:TestPackage_part2.TestNgDemo@26653222]" name="khakre" duration-ms="4" started-at="2021-12-29T10:28:16Z" data-provider="getData" finished-at="2021-12-29T10:28:16Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[katrina]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Dimple]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- khakre -->
+        <test-method status="PASS" signature="khakre(java.lang.String, java.lang.String)[pri:3, instance:TestPackage_part2.TestNgDemo@26653222]" name="khakre" duration-ms="2" started-at="2021-12-29T10:28:16Z" data-provider="getData" finished-at="2021-12-29T10:28:16Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[nakshatra]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[twinkle]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- khakre -->
+      </class> <!-- TestPackage_part2.TestNgDemo -->
+      <class name="TestPackage.TestNgAnnotation">
+        <test-method status="PASS" signature="test()[pri:1, instance:TestPackage.TestNgAnnotation@5e5792a0]" name="test" duration-ms="42" started-at="2021-12-29T10:28:16Z" finished-at="2021-12-29T10:28:16Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test -->
+        <test-method status="PASS" signature="test2()[pri:2, instance:TestPackage.TestNgAnnotation@5e5792a0]" name="test2" duration-ms="2" started-at="2021-12-29T10:28:16Z" finished-at="2021-12-29T10:28:16Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test2 -->
+        <test-method status="PASS" signature="test3()[pri:3, instance:TestPackage.TestNgAnnotation@5e5792a0]" name="test3" duration-ms="3" started-at="2021-12-29T10:28:16Z" finished-at="2021-12-29T10:28:16Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test3 -->
+      </class> <!-- TestPackage.TestNgAnnotation -->
+    </test> <!-- test1 -->
+  </suite> <!-- Naveen practice -->
+</testng-results>
