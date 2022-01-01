@@ -14,7 +14,7 @@ import org.testng.asserts.SoftAssert;
 
 import junit.framework.Assert;
 
-public class TestNgAnnotation {
+public class TestNgAnnotation2 {
 
 	SoftAssert softassert=new SoftAssert();
 	/*@BeforeSuite
@@ -60,7 +60,7 @@ public class TestNgAnnotation {
 	
 	@BeforeTest
 	public void beforeTest(){
-		System.out.println("You are running a Smoke test");
+		System.out.println("You are running a Regression test");
 	}
 	@Test(priority=1,enabled=true,groups={"other"})
 	public void test(){
